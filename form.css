@@ -1,0 +1,24 @@
+body
+{
+background-color:lightblue;
+}
+div
+{
+	border:1px solid red;
+	border-radius: 10px;
+	margin-left:250px;
+	margin-right:250px;
+	margin-top:80px;
+	margin-bottom:90px;
+	background-color:lightgrey;
+	padding-left:50px;
+	padding-right: 50px;
+	padding-bottom:20px;
+	color:blue;
+}
+h1{
+	background-color: grey;
+	color:darkgreen;
+	border-radius: 10px;
+	align-self: center;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="regform.css">
+</head>
+<body>
+<form action="regform.php" method="POST">
+<div class="class3">
+<h2><center>POLICY FORM</center></h2>
+<div class="class1">
+<field set>
+<legend><h4><center>Tell Us About Yourself</center></h4></legend>
+ First Name* <br>
+<input type ="text" name="first name " ><br><br>
+ Last Name* <br>
+<input type="text" name="last name"><br><br>
+</fieldset>
+<div class="class4">
+
+ Mobile No.* <br>
+<input type ="tel" name="phone"><br><br>
+ Email* <br>
+ <input type ="email" name="Email" multiple > <br>
+</div>
+</div>
+<div class="class2">
+<field set>
+<legend><h4><center>Tell Us About Coverage</center></h4></legend>
+ Martial Status* <br>
+<select>
+  <option value="married">Married</option>
+  <option value="unmarried">Unmarried</option>
+</select>
+<br><br>
+ City * <br>
+ <input type ="text" name="city" ><br><br>
+</fieldset>
+<br><br>
+ Gender* <br>
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other
+<div class="class5">
+
+ Occupation* <br>
+<input type ="text" name="occupation" multiple > <br>
+<br>
+ Sum Insured* <br>
+<input type ="number" name="sum" min="5" max="10">
+<br><br>
+Date of Birth* <br>
+<input type ="date" DOB="DOB" ><br><br>
+</div>
+<br><br><br><br>
+</div>
+<center><input type="submit"></center>
+</form>
+</body>
+</html>

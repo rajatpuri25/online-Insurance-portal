@@ -1,0 +1,16 @@
+form
+{
+	background-image:url("dummy/form2.jpg");
+	background-repeat: no-repeat;
+	background-position: center-bottom;
+	margin-left:250px;
+	margin-right:250px;
+	margin-top:3px;
+	margin-bottom:5px;
+	padding-bottom:300px;
+}
+h1
+{
+	padding-top:20px; 
+	text-align: center;
+}

@@ -1,0 +1,28 @@
+body
+{
+	background-color: lightblue;
+}
+div{	
+	background-position: center-bottom;
+	margin-left:400px;
+	margin-right:450px;
+	margin-top:3px;
+	margin-bottom:5px;
+	padding-bottom:20px;
+	padding-top: 20px;
+	font-size: 20px;
+	border-style: solid;
+	padding-left: 100px;
+	background-color: lightgrey;
+}
+h1
+{
+	text-align:center;
+	font-size: 40px;
+}
+.newreg
+{
+	padding-left: 100px;
+	margin-left: 100px;
+	text-align: right;
+}
